@@ -15,9 +15,10 @@ html{
 }
 
 button{
-    border-radius: 2rem;
+    border-radius: 30px;
     border-color: black;
     background-color: black;
+    
 }
 
 p{
