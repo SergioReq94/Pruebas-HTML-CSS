@@ -1,0 +1,81 @@
+/*Clases genéricas*/
+button{
+    border-radius: 2rem;
+    border-color: black;
+    background-color: black;
+}
+
+p{
+    text-align: justify;
+    font-size: 1rem;
+}
+
+img{
+    width: 40%;
+}
+
+table{
+    border: 3px solid black;
+    border-collapse: collapse;
+    -moz-column-span:all;
+         column-span:all;
+}
+
+th, td, tr{
+    border: 2px solid black;
+    
+}
+
+form input{
+    background-color: rgb(117, 51, 51);
+}
+/*Header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    align-items: center;
+    margin-right: 2rem;
+    margin-left: 1rem;
+}
+/*Nav*/
+nav ul{
+    display: flex;
+    text-decoration: none;
+    gap: 2rem;
+    list-style: none;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+/*Main*/
+
+body{
+    background-color: lab(68.25% -1.48 2.97 / 0.918);
+}
+
+section{
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: lab(100% 0.01 -0.01);
+}
+
+article{
+    width: 70%;
+}
+
+/*Footer*/
+footer{
+    display: flex;
+}
+
+/*Clases personalizadas*/
+
+.description{
+    background-color: peru;
+}
