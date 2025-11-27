@@ -8,6 +8,8 @@
   --color-border: #ccc;
   --color-background: whitesmoke;
   --border-radius: 30px;
+
+  
 }
 
 /*=================Tipografía=================*/
@@ -110,7 +112,8 @@ header{
     text-align: right;
     align-items: center;
     margin-right: 2rem;
-    margin-left: 1rem;
+    margin-left: 0rem;
+    padding: 0 1rem;
     background-color: #000;
 }
 
@@ -124,7 +127,7 @@ nav{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 0 1rem;
+  padding:0 1rem;
   align-items: center;
 }
 nav ul{
@@ -185,13 +188,17 @@ footer{
 .block {
   --padding-vertical: 6rem;
   padding: var(--padding-vertical) 2rem;
+  max-width: fit-content;
 }
 
 .block__header {
   text-align: center;
+  color: #fff;
 }
 .block__heading {
   margin-top: 0;
+  padding: var(--padding-vertical) 1rem;
+  color: #ff3400;
 }
 
 .block--dark {
