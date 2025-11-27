@@ -43,9 +43,50 @@ th, td, tr{
     
 }
 
-form input{
-    background-color: rgb(117, 51, 51);
+form{
+  padding: 20px;
+  max-width: fit-content;
+  margin: 0 auto;
 }
+
+form input{
+    background-color: var(--color-primary);
+}
+
+form select{
+  background-color: var(--color-background);
+}
+
+/* =================@media================= */
+
+@media (min-width: 1201px){
+  section{
+    width: 80%;
+    float:none;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1200px){
+  section{
+    width: 70%;
+    float:none;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media (max-width: 700px){
+  section{
+    width: 60%;
+    float:left;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+
 /* =================Botones================= */
 
 button{
@@ -115,7 +156,7 @@ footer{
 /*=================CLASES PERSONALIZADAS==================*/
 
 .description{
-    background-color: peru;
+    background-color: rgb(109, 105, 101);
 }
 
 /*==================Fichas/tarjetas/bloques==================*/
