@@ -1,3 +1,3 @@
 @import url(Estilos/estilos.scss);
-@import url();
-@import url();
+@import url(Estilos/root.css);
+@import url(Estilos/media.css);
