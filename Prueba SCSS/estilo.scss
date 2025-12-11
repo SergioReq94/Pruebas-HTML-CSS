@@ -1,0 +1,19 @@
+
+
+$color: green; /*Defino la variable de color*/
+
+@mixin boton {  /*Creo mixin de botón para poder reutilizar el código*/
+  padding: 10px 20px;
+  background: $color;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+h1 {
+  color: $color; /*Aplico el color*/
+}
+
+.btn {
+  @include boton; /*Aplico el estilo al botón con @include*/
+}

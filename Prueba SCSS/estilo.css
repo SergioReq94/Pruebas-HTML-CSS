@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/*Defino la variable de color*/
+h1 {
+  color: green; /*Aplico el color*/
+}
+
+.btn {
+  /*Creo mixin de botón para poder reutilizar el código*/
+  padding: 10px 20px;
+  background: green;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  /*Aplico el estilo al botón con @include*/
+}/*# sourceMappingURL=estilo.css.map */
